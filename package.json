@@ -1,0 +1,44 @@
+{
+  "name": "Todo-list",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "rspeedy build",
+    "check": "biome check --write",
+    "dev": "rspeedy dev",
+    "format": "biome format --write",
+    "preview": "rspeedy preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.4",
+    "@heroicons/react": "^2.2.0",
+    "@lynx-js/react": "^0.111.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.525.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.0",
+    "@lynx-js/qrcode-rsbuild-plugin": "^0.4.0",
+    "@lynx-js/react-rsbuild-plugin": "^0.10.7",
+    "@lynx-js/rspeedy": "^0.10.1",
+    "@lynx-js/types": "3.3.0",
+    "@rsbuild/plugin-type-check": "1.2.3",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^18.3.23",
+    "autoprefixer": "^10.4.21",
+    "jsdom": "^26.1.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "~5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
